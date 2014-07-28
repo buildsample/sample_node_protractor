@@ -23,7 +23,7 @@ before_script:
 script:
   - protractor --version
   - protractor conf.js
-
+  - git rev-parse --abbrev-ref HEAD
 after_script:
   - "/etc/init.d/xvfb stop"
   - istanbul cover conf.js -- -u tdd
