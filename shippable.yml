@@ -9,7 +9,7 @@ env:
 #specify required selenium and firefox version
 addons:
   selenium: "2.42"
-  firefox: "32.0"
+  firefox: "31.0"
 
 #start the selenium server
 services:
