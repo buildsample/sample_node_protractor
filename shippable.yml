@@ -6,10 +6,12 @@ node_js:
 env:
   - secure: nASst/kFlP39UKoisirHahT5Ga+8gmp2nocaBdXqMaaWbxks+9qZa7KkZNA7E+dvqdRsZsHyh7pU9aa7n5U/LzWPCx/JVTs4GjMart/wX/OX5Bb7TCK4XreQU3RqxiAZkkuCNxUDZFzehVp7aewjqS5ljGWktgqmXS0qhxgUbpTCHe7z1tF0bd90HwdkvnkFe+KkC/BtoaaMJ/NZhuTWKgRZ3fmYxWiNSc6++g3QDRFaTv/RNEHYiF5j0B5l3LBJr57BbSRgjborumQW56V9V9ZA4sUziHec/hV83gqQZW6VK0RbzTIzqw79Fv3eK1Ci1CIBtitcaRWE0CJaQz6G9g==
   #- secure: l7nkJM1v+qpoenkscpdAMDPmIyHf2yRWvRrVfu7UoM+YdkzV2/pNFu3Xk1rtn1ttpVkHmR8XkVu8U51nwDeHAL5R20YbI4ikqbV14nqdk8nr9URZdaOJVhYmS5vnMFHs76FgTZnoGi+/DvjJn02aELwsJ6KNvxZ2QF7MLwkmm47WbFaSY4EukbO/6MhXXcqfR3DAO1AToIaAe2AjWq5a23892YLObjR7C3jl7HcT/9tfknihTkW/VanwIWntsbXtF9f2QegOZeeykZConP6lBmDdmkKNMI9zzVeb7PHeLE1mwwST2bkCaKJI+UIjtHdm5PYsyO10TCRnuXNwBS00Qg==
-
+#specify required selenium and firefox version
 addons:
-  firefox: "31.0"
+  selenium: "2.43"
+  firefox: "27.0"
 
+#start the selenium server
 services:
   - selenium
 
