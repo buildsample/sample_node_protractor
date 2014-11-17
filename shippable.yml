@@ -9,7 +9,7 @@ env:
 
 addons:
   firefox: "31.0"
-  selenium: "2.39"
+  selenium: "2.41"
 
 services:
   - selenium
