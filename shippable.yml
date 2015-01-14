@@ -39,7 +39,7 @@ after_script:
   - istanbul report cobertura --dir  shippable/codecoverage/
 
 archive: true
-build_image: shippable/minv2:beta
+#build_image: shippable/minv2:beta
 
 notifications:
      email:
