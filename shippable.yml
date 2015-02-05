@@ -9,7 +9,7 @@ env:
 
 addons:
   firefox: "31.0"
-  selenium: "2.41"
+  selenium: "2.44"
 
 services:
   - selenium
@@ -40,7 +40,7 @@ after_script:
 
 archive: true
 
-build_image: shippable/minv2:beta
+#build_image: shippable/minv2:beta
 
 notifications:
      email:
