@@ -39,6 +39,7 @@ after_script:
   - istanbul report cobertura --dir  shippable/codecoverage/
 
 archive: true
+build_image: drydock/u14nodall:tip
 
 #build_image: shippable/minv2:beta
 
